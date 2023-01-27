@@ -1,0 +1,27 @@
+
+
+.errorMessage {
+    color: #DE5246;
+}
+
+.successMessage {
+    color: #35682D;
+}
+
+#debug .col {
+  border: 1px solid #c9c9c9;
+}
+
+#debug .col:not(:last-child) {
+  border-right-width: 0;
+}
+
+#debug .row:not(:last-child) {
+  border-bottom-width: 0;
+}
+
+/*
+<p>                 => p
+id="inputHelp"      => #inputHelp
+class="form-text"   => .form-text
+*/
